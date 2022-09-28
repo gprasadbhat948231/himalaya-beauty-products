@@ -1,0 +1,52 @@
+.Navbar ul{
+    padding:0;
+    margin:0;
+    float: right;
+    margin-right: 30px;
+    background-color:white;
+    color:rgb(98, 97, 97)
+}   
+.Navbar ul li{
+    position: relative;
+    list-style: none;
+    display: inline-block;
+}
+.Navbar ul li a{
+    display: block;
+    padding: 0 15px;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 18px;
+}
+.Navbar ul ul{
+    position:absolute;
+    top:60px;
+    display: none;
+}
+.Navbar ul li:hover > ul{
+    display:block;
+    background-color:#d8e3ed;
+    color:black;
+}
+.Navbar ul ul li{
+    width:200px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+.Navbar ul ul ul li{
+    position: relative;
+    top:-50px;
+    background-color:#d8e3ed;
+    left: 200px;
+}
+.icontwo:hover{
+    background-color: #d8e3ed;
+    transform: scale( 1.2);
+    padding: 5px;
+}
+.iconthree:hover{
+    background-color: #d8e3ed;
+    transform: scale( 1.2);
+    padding: 5px;
+}
