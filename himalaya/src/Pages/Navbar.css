@@ -50,3 +50,29 @@
     transform: scale( 1.2);
     padding: 5px;
 }
+
+
+
+
+
+
+
+.carousel__container {
+    width: auto;
+    margin: auto;
+  }
+  
+  /* gives us the illusion of a "centered" slide */
+  .carousel__slider {
+    padding-left: 25%;
+    padding-right: 25%;
+}
+  
+  /* gives us the illusion of spaces between the slides */
+  .carousel__inner-slide {
+    width: 300px;
+    height: 100px;
+    left: 10px;
+    top: 10px;
+    background-color: burlywood;
+  }
