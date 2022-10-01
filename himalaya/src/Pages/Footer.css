@@ -1,0 +1,26 @@
+.footer_Container{
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+    border:1px solid red;
+    height: auto;
+}
+.footer_Container>div{
+    margin-top: 10px;
+    text-align: left;
+    width: 250px;
+    height: 300px;
+    margin: auto;
+    border: 1px solid black;
+}
+.main_heading{
+    font-size: medium;
+    font-weight: bolder;
+
+}
+.subcategory{
+    line-height: 1.8;
+    font-weight: bolder;
+    color: gray;
+    font-family: Poppins, sans-serif;
+}

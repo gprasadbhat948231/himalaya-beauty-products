@@ -1,5 +1,6 @@
 import React from "react"
 import {Box, Image, Text} from "@chakra-ui/react"
+import "./wisdom.css"
 function Wisdom()
 {
     return(
