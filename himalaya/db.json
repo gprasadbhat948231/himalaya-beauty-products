@@ -80,6 +80,11 @@
       "email": "chandaguli@gmail.com",
       "password": "Guruprasad@1",
       "id": 10
+    },
+    {
+      "email": "Guruprasad",
+      "password": "Bhat",
+      "id": 11
     }
   ]
 }
