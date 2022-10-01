@@ -1,14 +1,85 @@
 {
-    "middle": [
-      { "id": 1, "image": "https://cdn.shopify.com/s/files/1/0399/1728/9633/files/HUSA-Ashwagandha-90ct-Carton_Bottle-square_1024x.png?v=1614392545", "title": "Supplements", "details":"See all supplements" },
-      { "id": 2, "image": "https://cdn.shopify.com/s/files/1/0399/1728/9633/files/WCC-SIMPLY-MINT-RENDER-WITH-BRUSH-High-Res_1024x.png?v=1614392545", "title": "Oral Care", "details":"See all Oral Care" },
-      { "id": 3, "image": "https://cdn.shopify.com/s/files/1/0399/1728/9633/files/Face_Wash-Balancing-Box-Bottle-square_1024x.png?v=1614392545", "title": "Personal Care", "details":"See all Personal Care" }
-    ],
-    "bestseller": [
-      { "id": 1, "image": "https://cdn.shopify.com/s/files/1/0399/1728/9633/products/organic-gymnema-953558_800x.png?v=1660813421", "title":"Organic Gymnema", "price":"$14.95" },
-      { "id": 2, "image": "https://cdn.shopify.com/s/files/1/0399/1728/9633/products/simply-mint-whitening-toothpaste-687185_800x.png?v=1660858335", "title":"Simply mint whitening Toothpaste", "price":"$5.99" },
-      { "id": 3, "image": "https://cdn.shopify.com/s/files/1/0399/1728/9633/products/livercare-524140_800x.png?v=1660858343", "title":"LiverCare", "price":"$17.95" },
-      { "id": 4, "image": "https://cdn.shopify.com/s/files/1/0399/1728/9633/products/organic-ashwagandha-119670_800x.png?v=1660858343", "title":"Organic Ashwagandha", "price":"$14.95" }
-    ],
-    "profile": { "name": "typicode" }
-  }
+  "middle": [
+    {
+      "id": 1,
+      "image": "https://cdn.shopify.com/s/files/1/0399/1728/9633/files/HUSA-Ashwagandha-90ct-Carton_Bottle-square_1024x.png?v=1614392545",
+      "title": "Supplements",
+      "details": "See all supplements"
+    },
+    {
+      "id": 2,
+      "image": "https://cdn.shopify.com/s/files/1/0399/1728/9633/files/WCC-SIMPLY-MINT-RENDER-WITH-BRUSH-High-Res_1024x.png?v=1614392545",
+      "title": "Oral Care",
+      "details": "See all Oral Care"
+    },
+    {
+      "id": 3,
+      "image": "https://cdn.shopify.com/s/files/1/0399/1728/9633/files/Face_Wash-Balancing-Box-Bottle-square_1024x.png?v=1614392545",
+      "title": "Personal Care",
+      "details": "See all Personal Care"
+    }
+  ],
+  "bestseller": [
+    {
+      "id": 1,
+      "image": "https://cdn.shopify.com/s/files/1/0399/1728/9633/products/organic-gymnema-953558_800x.png?v=1660813421",
+      "title": "Organic Gymnema",
+      "price": "$14.95"
+    },
+    {
+      "id": 2,
+      "image": "https://cdn.shopify.com/s/files/1/0399/1728/9633/products/simply-mint-whitening-toothpaste-687185_800x.png?v=1660858335",
+      "title": "Simply mint whitening Toothpaste",
+      "price": "$5.99"
+    },
+    {
+      "id": 3,
+      "image": "https://cdn.shopify.com/s/files/1/0399/1728/9633/products/livercare-524140_800x.png?v=1660858343",
+      "title": "LiverCare",
+      "price": "$17.95"
+    },
+    {
+      "id": 4,
+      "image": "https://cdn.shopify.com/s/files/1/0399/1728/9633/products/organic-ashwagandha-119670_800x.png?v=1660858343",
+      "title": "Organic Ashwagandha",
+      "price": "$14.95"
+    }
+  ],
+  "login": [
+    {
+      "email": "gprasadbhat@gmail.com",
+      "password": "guru",
+      "id": 3
+    },
+    {
+      "email": "prasad",
+      "password": "gueu",
+      "id": 4
+    },
+    {
+      "email": "nanda",
+      "password": "sampi",
+      "id": 5
+    },
+    {
+      "email": "guru",
+      "password": "ggggg",
+      "id": 7
+    },
+    {
+      "email": "Gprasadbhat@gmail.com",
+      "password": "guruprasad",
+      "id": 8
+    },
+    {
+      "email": "Gprasadbhat@gmail.com",
+      "password": "guruprasad",
+      "id": 9
+    },
+    {
+      "email": "chandaguli@gmail.com",
+      "password": "Guruprasad@1",
+      "id": 10
+    }
+  ]
+}

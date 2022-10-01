@@ -1,6 +1,7 @@
 import React from "react"
 import Middlepart from "./Homemiddle";
 import {Text} from "@chakra-ui/react"
+import Footer from "./Footer";
 function HomePage()
 {
     return (
@@ -30,7 +31,7 @@ function HomePage()
             <br/>
             <br/>
             <Middlepart/>
-            
+            <Footer/>
         </div>
     )
 }

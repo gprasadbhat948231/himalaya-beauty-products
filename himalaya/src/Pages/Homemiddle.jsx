@@ -5,11 +5,11 @@ import {useState,useEffect} from "react"
 import "./homemiddle.css";
 import Wisdom from "./wisdom";
 const getCategoryData=()=>{
-    return axios.get(`http://localhost:8080/middle`);
+    return axios.get(`http://localhost:3000/middle`);
 }
 
 const getBsellerData=()=>{
-    return axios.get(`http://localhost:8080/bestseller`);
+    return axios.get(`http://localhost:3000/bestseller`);
 }
 function Middlepart(){
     
