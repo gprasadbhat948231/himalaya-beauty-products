@@ -3,7 +3,7 @@ import {Box, FormControl, FormLabel, Input, Text} from "@chakra-ui/react"
 import "./Login.css"
 import {useState} from "react";
 import axios from "axios"
-import { useNavigate,} from "react-router-dom";
+import { useNavigate} from "react-router-dom";
 const getData=(data={})=>{
   return axios.post(" http://localhost:3000/login",{
     email:data.email,

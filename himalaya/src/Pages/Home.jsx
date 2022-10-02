@@ -1,12 +1,11 @@
 import React from "react"
 import Middlepart from "./Homemiddle";
 import {Text} from "@chakra-ui/react"
-import Footer from "./Footer";
 function HomePage()
 {
     return (
         <div>
-                        <div style={{
+                 <div style={{
                 backgroundImage:`url("https://scontent.fblr4-2.fna.fbcdn.net/v/t1.6435-9/207264593_4366290630070783_1169466405290446259_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=e3f864&_nc_ohc=Dq4Q-VsEQtUAX8dy1Gx&_nc_ht=scontent.fblr4-2.fna&oh=00_AT9ikgQg0w865KSpbEGS3Qdb2BjJVrPDBxI3FB1vR9wd4w&oe=63591F3D")`,
                 width:"100%",
                 minHeight:"450px",
@@ -31,7 +30,6 @@ function HomePage()
             <br/>
             <br/>
             <Middlepart/>
-            <Footer/>
         </div>
     )
 }

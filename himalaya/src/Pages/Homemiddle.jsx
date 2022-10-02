@@ -1,9 +1,16 @@
-import chakra from "@chakra-ui/react"
-import { Text,Image } from "@chakra-ui/react";
+import { Text,Image,Button } from "@chakra-ui/react";
 import axios from "axios"
 import {useState,useEffect} from "react"
 import "./homemiddle.css";
 import Wisdom from "./wisdom";
+const setCartData=(data={})=>{
+    return axios.post(" http://localhost:3000/cartItems ",{
+      image:data.image,
+      title:data.title,
+      price:data.price
+    })
+}
+
 const getCategoryData=()=>{
     return axios.get(`http://localhost:3000/middle`);
 }
@@ -16,11 +23,22 @@ function Middlepart(){
     const [data,setData]=useState([])
     
     const [bdata,setbData]=useState([]);
+
+    const [cartitem,setCartitem]=useState({
+        id:"",
+        image:"",
+        title:"",
+        price:""
+    })
     useEffect(()=>{
         getCategoryData().then((res)=>setData(res.data))
         getBsellerData().then((res)=>setbData(res.data));
     },[])
-    // console.log(bdata[1].image);
+    const handleModal=(item)=>{
+        setCartitem(item);
+        setCartData(item);
+        
+    }
     return (
         <div>
             
@@ -51,7 +69,8 @@ function Middlepart(){
                        <div key={item.id} className="bsellerdiv">
                             <Image src={item.image}></Image>
                             <Text className="seller_title_one">{item.title}</Text>
-                            <Text>🛒{item.price}</Text>
+                            <Text>🛒 $ {item.price}</Text>
+                            <Button onClick={()=>handleModal(item)}>Add to Cart</Button>
                         </div> 
                     ))
                 }

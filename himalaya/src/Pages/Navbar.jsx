@@ -20,7 +20,7 @@ function Navbar()
             <Flex alignItems="center" justifyContent="space-between">
                 <Box>
                     <HStack spacing="34px">
-                       <Image width="200px" ml="50px" height="80px" src="https://cdn.shopify.com/s/files/1/0399/1728/9633/files/new-logo.png?height=628&pad_color=ffffff&v=1614313814&width=1200" alt="Himalaya logo"></Image>
+                     <Link to="/"> <Image width="200px" ml="50px" height="80px" src="https://cdn.shopify.com/s/files/1/0399/1728/9633/files/new-logo.png?height=628&pad_color=ffffff&v=1614313814&width=1200" alt="Himalaya logo"></Image></Link>
                             <div className="Navbar">
                                 <ul>
                                     <li><a href="#">Shop</a>
@@ -67,7 +67,7 @@ function Navbar()
                             <Link to="/registration"><Image onClick={()=>console.log("guru")} className="icontwo" src="https://cdn-icons-png.flaticon.com/128/456/456283.png" width="25px" height="25px" mr={2}/></Link>
                             </Box>
                             <Box>
-                            <Image className="iconthree" src="https://cdn-icons-png.flaticon.com/128/4903/4903482.png" width="30px" height="30px"/>
+                           <Link to="/cartModal"> <Image className="iconthree" src="https://cdn-icons-png.flaticon.com/128/4903/4903482.png" width="30px" height="30px"/></Link>
                             </Box>
                         </HStack>   
                     </Box>
