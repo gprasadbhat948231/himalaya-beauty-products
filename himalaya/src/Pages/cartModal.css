@@ -1,0 +1,25 @@
+.cartmodel_container{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap:10px;
+    width:80%;
+    margin: auto;
+    margin-top: 10px;
+}
+.indi_div{
+    margin: auto;
+    width:300px;
+    height:auto;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: rgba(9, 9, 9, 0.2) 0px 2px 3px 0px;
+}
+.checkoutbtn{
+    background-color: greenyellow;
+}
+
+.empty_cart{
+    font-size: large;
+    color:red;
+}
