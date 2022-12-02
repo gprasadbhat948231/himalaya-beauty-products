@@ -4,11 +4,11 @@ import { useEffect ,useState } from "react";
 import "./cartModal.css"
 import { Link } from "react-router-dom";
 const getCategoryData=()=>{
-    return axios.get(`http://localhost:3000/cartItems`);
+    return axios.get(`https://himalaya-json-server.onrender.com/cartItems`);
 }
 
 const removeItem=(id)=>{
-    return axios.delete(`http://localhost:3000/cartItems/${id}`)
+    return axios.delete(`https://himalaya-json-server.onrender.com/cartItems/${id}`)
 }
 
 function CartModal() 

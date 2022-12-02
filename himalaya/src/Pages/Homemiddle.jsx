@@ -4,7 +4,7 @@ import {useState,useEffect} from "react"
 import "./homemiddle.css";
 import Wisdom from "./wisdom";
 const setCartData=(data={})=>{
-    return axios.post(" http://localhost:3000/cartItems ",{
+    return axios.post(" https://himalaya-json-server.onrender.com/cartItems ",{
       image:data.image,
       title:data.title,
       price:data.price
@@ -12,11 +12,11 @@ const setCartData=(data={})=>{
 }
 
 const getCategoryData=()=>{
-    return axios.get(`http://localhost:3000/middle`);
+    return axios.get(`https://himalaya-json-server.onrender.com/middle`);
 }
 
 const getBsellerData=()=>{
-    return axios.get(`http://localhost:3000/bestseller`);
+    return axios.get(`https://himalaya-json-server.onrender.com/bestseller`);
 }
 function Middlepart(){
     

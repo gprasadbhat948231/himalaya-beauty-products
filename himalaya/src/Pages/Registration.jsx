@@ -5,7 +5,7 @@ import {useState} from "react";
 import axios from "axios"
 import { useNavigate} from "react-router-dom";
 const getData=(data={})=>{
-  return axios.post(" http://localhost:3000/login",{
+  return axios.post(" https://himalaya-json-server.onrender.com/login",{
     email:data.email,
     password:data.password
   })
