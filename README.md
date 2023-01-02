@@ -1,4 +1,4 @@
-# himalaya-beauty-products
+# Himalaya-beauty-products
 Himalaya Us is the US based Company which sells beauty based products. This Project is the clone of Himalayaus.com
 
 # About this projct
