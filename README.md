@@ -18,10 +18,13 @@ Himalaya Us is the US based Company which sells beauty based products. This Proj
 
 ## More info the Project (Himalaya)
 
-![gshopy_landing](https://user-images.githubusercontent.com/107459781/210255719-137fa2d3-f4ae-46c7-8bc3-875aa116c522.png)
-This is the Landing Page of our project. 
+![himalaya_landing_page](https://user-images.githubusercontent.com/107459781/210257032-b3759976-6975-4b54-addf-5666be2bb364.png)
+
+This is the Landing Page of My project. 
 
 *******************************************************************************************************************************
 
 # Cart and Checkout Page
-  ![Gshopy_Cart_Checkout](https://user-images.githubusercontent.com/107459781/210256154-271171c2-5c24-4979-bfd5-9366f7143d56.png)
+  ![himalaya_cart](https://user-images.githubusercontent.com/107459781/210257069-82652b89-47a8-4b48-8119-35c6db387310.png)
+
+************************************************** ***************************************************** **********************
